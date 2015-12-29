@@ -30,6 +30,10 @@ module RailsTemplate
     config.generators do |g|
       g.test_framework      :rspec, fixture: true
       g.fixture_replacement :fabrication
+
+      g.helper       false
+      g.view_specs   false
+      g.helper_specs false
     end
   end
 end
