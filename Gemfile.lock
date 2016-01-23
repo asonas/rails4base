@@ -110,12 +110,12 @@ GEM
       mime-types (>= 1.16, < 3)
     method_source (0.8.2)
     mime-types (2.6.2)
-    mini_portile (0.6.2)
+    mini_portile2 (2.0.0)
     minitest (5.8.3)
     multi_json (1.11.2)
     nenv (0.2.0)
-    nokogiri (1.6.6.3)
-      mini_portile (~> 0.6.0)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
     notiffany (0.0.8)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -253,6 +253,7 @@ DEPENDENCIES
   guard-rspec
   jbuilder
   konacha
+  nokogiri (>= 1.6.7.2)
   pg
   poltergeist
   pry
