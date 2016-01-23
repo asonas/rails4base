@@ -38,3 +38,5 @@ group :test do
   gem 'rspec-rails', group: :development
 end
 
+
+gem 'nokogiri', '>= 1.6.7.2'
