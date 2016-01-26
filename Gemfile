@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+gem 'rails', '~> 4.2.5.1'
 gem 'coffee-rails'
 gem 'jbuilder'
 gem 'sass-rails', '~> 4.0.3'
@@ -40,3 +40,5 @@ end
 
 
 gem 'nokogiri', '>= 1.6.7.2'
+
+gem 'rails-html-sanitizer', '~> 1.0.3'
