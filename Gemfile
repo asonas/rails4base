@@ -3,15 +3,14 @@ source 'https://rubygems.org'
 gem 'rails', '~> 4.2.5.1'
 gem 'coffee-rails'
 gem 'jbuilder'
-gem 'sass-rails', '~> 4.0.3'
-gem 'uglifier'
-gem 'turbolinks'
-gem 'slim-rails'
+gem 'nokogiri', '>= 1.6.7.2'
 gem 'pg'
+gem 'rails-html-sanitizer', '~> 1.0.3'
+gem 'sass-rails'
+gem 'slim-rails'
+gem 'turbolinks'
+gem 'uglifier'
 
-group :doc do
-  gem 'sdoc', '~> 0.4.0'
-end
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
   gem 'rails-assets-jquery'
@@ -37,8 +36,3 @@ group :test do
   gem "poltergeist"
   gem 'rspec-rails', group: :development
 end
-
-
-gem 'nokogiri', '>= 1.6.7.2'
-
-gem 'rails-html-sanitizer', '~> 1.0.3'
