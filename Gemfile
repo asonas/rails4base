@@ -8,7 +8,6 @@ gem 'pg'
 gem 'rails-html-sanitizer', '~> 1.0.3'
 gem 'sass-rails'
 gem 'slim-rails'
-gem 'turbolinks'
 gem 'uglifier'
 
 source 'https://rails-assets.org' do
