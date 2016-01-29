@@ -31,7 +31,6 @@ group :test do
   gem 'database_rewinder'
   gem 'fabrication'
   gem 'guard-rspec'
-  gem 'konacha'
   gem "poltergeist"
   gem 'rspec-rails', group: :development
 end
