@@ -48,7 +48,7 @@ GEM
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
     byebug (8.2.1)
-    capybara (2.6.1)
+    capybara (2.6.2)
       addressable
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
@@ -64,7 +64,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.10.0)
-    colorize (0.7.7)
     concurrent-ruby (1.0.0)
     database_rewinder (0.5.3)
     debug_inspector (0.0.2)
@@ -95,13 +94,6 @@ GEM
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
     json (1.8.3)
-    konacha (3.7.0)
-      actionpack (>= 3.1, < 5)
-      capybara
-      colorize
-      railties (>= 3.1, < 5)
-      sprockets (>= 2, < 4)
-      tilt
     listen (3.0.5)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -134,7 +126,7 @@ GEM
     pry-byebug (3.3.0)
       byebug (~> 8.0)
       pry (~> 0.10)
-    puma (2.15.3)
+    puma (2.16.0)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.6.4)
@@ -247,7 +239,6 @@ DEPENDENCIES
   fabrication
   guard-rspec
   jbuilder
-  konacha
   nokogiri (>= 1.6.7.2)
   pg
   poltergeist
