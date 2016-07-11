@@ -1,3 +1,8 @@
+== ATTENTION
+
+!!! NON FRESH RAILS !!!
+redirect to https://github.com/asonas/rails5base
+
 == README
 
 This README would normally document whatever steps are necessary to get the
